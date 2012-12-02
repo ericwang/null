@@ -1,8 +1,8 @@
 //============================================================================
 // Name        : empty.cpp
-// Author      : wh
+// Author      :
 // Version     :
-// Copyright   : Your copyright notice
+// Copyright   :
 // Description : Hello World in C++, Ansi-style
 //============================================================================
 

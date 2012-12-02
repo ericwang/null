@@ -1,5 +1,5 @@
 ################################################################################
-# 自动生成的文件。不要编辑！
+# Automatically-generated file. Do not edit!
 ################################################################################
 
 -include ../makefile.init
@@ -37,18 +37,18 @@ endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 
-# 所有目标
+# All Target
 all: empty
 
-# 工具调用
+# Tool invocations
 empty: $(OBJS) $(USER_OBJS)
-	@echo '正在构建目标： $@'
-	@echo '正在调用： MacOS X C++ 链接器'
+	@echo 'Building target: $@'
+	@echo 'Invoking: MacOS X C++ 链接器'
 	g++  -o "empty" $(OBJS) $(USER_OBJS) $(LIBS)
-	@echo '已结束构建目标： $@'
+	@echo 'Finished building target: $@'
 	@echo ' '
 
-# 其他目标
+# Other Targets
 clean:
 	-$(RM) $(C++_DEPS)$(OBJS)$(C_DEPS)$(CC_DEPS)$(CPP_DEPS)$(EXECUTABLES)$(CXX_DEPS)$(C_UPPER_DEPS) empty
 	-@echo ' '
