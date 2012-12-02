@@ -1,4 +1,5 @@
-#Debug/empty
+Debug/empty
+.settings/*
 
 # Compiled Object files
 *.slo
