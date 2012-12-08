@@ -43,7 +43,7 @@ all: empty
 # Tool invocations
 empty: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
-	@echo 'Invoking: MacOS X C++ 链接器'
+	@echo 'Invoking: MacOS X C++ Linker'
 	g++  -o "empty" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
